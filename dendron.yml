@@ -1,0 +1,124 @@
+site:
+    siteHierarchies:
+        - home
+        - dendron
+        - aws
+        - blog
+        - books
+        - readings
+        - cli
+        - pr
+        - spec
+        - business
+        - film
+    siteRootDir: docs
+    config:
+        tags:
+            publishByDefault: false
+        film:
+            publishByDefault: true
+        dendron:
+            publishByDefault: false
+        home:
+            publishByDefault: true
+        learn:
+            publishByDefault: true
+        readings:
+            publishByDefault: true
+        pr:
+            publishByDefault: true
+            noindexByDefault: true
+        books:
+            publishByDefault: false
+        cli:
+            publishByDefault:
+                dev: true
+                notes: false
+        spec:
+            publishByDefault: true
+        aws:
+            noindexByDefault: true
+            publishByDefault:
+                aws: true
+        business:
+            publishByDefault:
+                public: true
+                notes: false
+        scratch:
+            publishByDefault:
+                notes: false
+    usePrettyRefs: true
+    copyAssets: true
+    logo: ../notes/assets/images/bio-photo.jpg
+    title: Kevin's Page
+    siteUrl: 'https://www.kevinslin.com'
+    description: Kevin is working on creating better tools for thought
+    twitter: kevins8
+    author: Kevin S Lin
+    duplicateNoteBehavior:
+        action: useVault
+        payload:
+            - public
+            - notes
+            - people
+            - dendron
+            - dev
+            - aws
+            - business
+            - yc
+vaults:
+    -
+        fsPath: ../vaults/yc-vault
+        name: yc
+    -
+        fsPath: ../vaults/dendron-private
+        name: dendron-private
+        visibility: private
+        remote:
+            type: git
+            url: PLACEHOLDER
+    -
+        fsPath: ../../../../projects/dendronv2/dendron-site/vault
+        name: dendron-site
+        visibility: private
+        remote:
+            type: git
+            url: PLACEHOLDER
+    -
+        fsPath: ../vaults/public-vault
+        name: public
+        remote:
+            type: git
+            url: 'https://github.com/kevinslin/kevin-public-vault.git'
+    -
+        fsPath: ../vaults/people-vault
+        name: people
+        remote:
+            type: git
+            url: 'git@github.com:kevinslin/people-vault.git'
+    -
+        fsPath: ../vaults/dendron-vault
+        name: dendron
+        remote:
+            type: git
+            url: 'git@github.com:kevinslin/dendron-vault.git'
+    -
+        fsPath: ../vaults/dev-vault
+        name: dev
+        remote:
+            type: git
+            url: 'https://github.com/kevinslin/kevin-dev-vault.git'
+    -
+        fsPath: ../vaults/aws-vault
+        name: aws
+        remote:
+            type: git
+            url: 'https://github.com/kevinslin/aws-vault.git'
+    -
+        fsPath: ../../notes
+        remote:
+            type: git
+            url: 'git@github.com:kevinslin/notes.git'
+version: 1
+useFMTitle: true
+useNoteTitleForLink: true

@@ -1,0 +1,130 @@
+{
+    "folders": [
+        {
+            "path": "vaults/yc-vault",
+            "name": "yc"
+        },
+        {
+            "path": "vaults/dendron-private",
+            "name": "dendron-private"
+        },
+        {
+            "path": "../../../projects/dendronv2/dendron-site/vault",
+            "name": "dendron-site"
+        },
+        {
+            "path": "vaults/public-vault",
+            "name": "public"
+        },
+        {
+            "path": "vaults/people-vault",
+            "name": "people"
+        },
+        {
+            "path": "vaults/dendron-vault",
+            "name": "dendron"
+        },
+        {
+            "path": "vaults/dev-vault",
+            "name": "dev"
+        },
+        {
+            "path": "vaults/aws-vault",
+            "name": "aws"
+        },
+        {
+            "path": "notes"
+        },
+        {
+            "path": "dev"
+        },
+        {
+            "path": "scripts"
+        }
+    ],
+    "settings": {
+        "editor.wordWrap": "on",
+        "[markdown]": {
+            "editor.wordWrap": "on",
+            "editor.tabSize": 4,
+            "editor.quickSuggestions": {
+                "other": false,
+                "comments": false,
+                "strings": false
+            }
+        },
+        "workbench.editor.showTabs": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "dendron.logLevel": "info",
+        "markdown-checkbox.strikeThroughWhenChecked": false,
+        "markdown-checkbox.italicWhenChecked": false,
+        "workbench.editor.pinnedTabSizing": "shrink",
+        "markdown-checkbox.dateWhenChecked": true,
+        "markdown-checkbox.dateFormat": "YYYY-MM-DD HH:MM",
+        "markdown-checkbox.checkmark": "x",
+        "editor.lineNumbers": "relative",
+        "editor.minimap.enabled": false,
+        "git.ignoreLimitWarning": true,
+        "git.enableSmartCommit": true,
+        "git.postCommitCommand": "sync",
+        "files.autoSave": "onFocusChange",
+        "zenMode.hideTabs": false,
+        "dendron.rootDir": ".",
+        "dendron.defaultTimestampDecorationFormat": "DATE_MED_WITH_WEEKDAY",
+        "dendron.copyNoteUrlRoot": "https://kevinslin.com",
+        "dendron.defaultJournalAddBehavior": "childOfDomainNamespace",
+        "dendron.defaultJournalDateFormat": "y.MM.dd",
+        "dendron.dailyJournalDomain": "dendron",
+        "screencastMode.onlyKeyboardShortcuts": true,
+        "zenMode.fullScreen": false,
+        "zenMode.hideLineNumbers": false,
+        "zenMode.hideStatusBar": true,
+        "zenMode.hideActivityBar": true,
+        "zenMode.silentNotifications": false,
+        "pasteImage.path": "${currentFileDir}/assets/images/",
+        "markdown-preview-enhanced.enableWikiLinkSyntax": true,
+        "workbench.colorTheme": "GitHub Dark",
+        "peacock.color": "#007fff",
+        "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
+        "cSpell.enabled": true,
+        "pasteImage.prefix": "/",
+        "editor.snippetSuggestions": "inline",
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggest.showSnippets": true,
+        "editor.tabCompletion": "on",
+        "cSpell.words": [
+            "sessionize"
+        ],
+        "workbench.editor.wrapTabs": false,
+        "workbench.colorCustomizations": {
+            "activityBar.activeBackground": "#3399ff",
+            "activityBar.activeBorder": "#bf0060",
+            "activityBar.background": "#3399ff",
+            "activityBar.foreground": "#15202b",
+            "activityBar.inactiveForeground": "#15202b99",
+            "activityBarBadge.background": "#bf0060",
+            "activityBarBadge.foreground": "#e7e7e7",
+            "statusBar.background": "#007fff",
+            "statusBar.foreground": "#e7e7e7",
+            "statusBarItem.hoverBackground": "#3399ff",
+            "titleBar.activeBackground": "#007fff",
+            "titleBar.activeForeground": "#e7e7e7",
+            "titleBar.inactiveBackground": "#007fff99",
+            "titleBar.inactiveForeground": "#e7e7e799",
+            "tab.unfocusedActiveBorder": "#000000"
+        },
+        "todo-tree.tree.showBadges": false,
+        "todo-tree.tree.showCountsInTree": true
+    },
+    "extensions": {
+        "recommendations": [
+            "dendron.dendron-markdown-shortcuts",
+            "dendron.dendron-markdown-preview-enhanced",
+            "dendron.dendron-markdown-links",
+            "dendron.dendron-paste-image",
+            "github.github-vscode-theme"
+        ]
+    }
+}
