@@ -39,7 +39,10 @@
             "path": "../../dev"
         },
         {
-            "path": "../../scripts"
+            "path": "scripts"
+        },
+        {
+            "path": "."
         }
     ],
     "settings": {
