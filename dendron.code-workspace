@@ -1,45 +1,45 @@
 {
     "folders": [
         {
-            "path": "vaults/yc-vault",
+            "path": "../../vaults/yc-vault",
             "name": "yc"
         },
         {
-            "path": "vaults/dendron-private",
+            "path": "../../vaults/dendron-private",
             "name": "dendron-private"
         },
         {
-            "path": "../../../projects/dendronv2/dendron-site/vault",
+            "path": "../../../../../projects/dendronv2/dendron-site/vault",
             "name": "dendron-site"
         },
         {
-            "path": "vaults/public-vault",
+            "path": "../../vaults/public-vault",
             "name": "public"
         },
         {
-            "path": "vaults/people-vault",
+            "path": "../../vaults/people-vault",
             "name": "people"
         },
         {
-            "path": "vaults/dendron-vault",
+            "path": "../../vaults/dendron-vault",
             "name": "dendron"
         },
         {
-            "path": "vaults/dev-vault",
+            "path": "../../vaults/dev-vault",
             "name": "dev"
         },
         {
-            "path": "vaults/aws-vault",
+            "path": "../../vaults/aws-vault",
             "name": "aws"
         },
         {
-            "path": "notes"
+            "path": "../../../../notes"
         },
         {
-            "path": "dev"
+            "path": "../../dev"
         },
         {
-            "path": "scripts"
+            "path": "../../scripts"
         }
     ],
     "settings": {

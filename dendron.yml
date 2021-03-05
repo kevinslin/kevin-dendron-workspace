@@ -68,48 +68,48 @@ site:
             - yc
 vaults:
     -
-        fsPath: ../vaults/yc-vault
+        fsPath: ../../vaults/yc-vault
         name: yc
     -
-        fsPath: ../vaults/dendron-private
+        fsPath: ../../vaults/dendron-private
         name: dendron-private
         visibility: private
         remote:
             type: git
             url: PLACEHOLDER
     -
-        fsPath: ../../../../projects/dendronv2/dendron-site/vault
+        fsPath: ../../../../../projects/dendronv2/dendron-site/vault
         name: dendron-site
         visibility: private
         remote:
             type: git
             url: PLACEHOLDER
     -
-        fsPath: ../vaults/public-vault
+        fsPath: ../../vaults/public-vault
         name: public
         remote:
             type: git
             url: 'https://github.com/kevinslin/kevin-public-vault.git'
     -
-        fsPath: ../vaults/people-vault
+        fsPath: ../../vaults/people-vault
         name: people
         remote:
             type: git
             url: 'git@github.com:kevinslin/people-vault.git'
     -
-        fsPath: ../vaults/dendron-vault
+        fsPath: ../../vaults/dendron-vault
         name: dendron
         remote:
             type: git
             url: 'git@github.com:kevinslin/dendron-vault.git'
     -
-        fsPath: ../vaults/dev-vault
+        fsPath: ../../vaults/dev-vault
         name: dev
         remote:
             type: git
             url: 'https://github.com/kevinslin/kevin-dev-vault.git'
     -
-        fsPath: ../vaults/aws-vault
+        fsPath: ../../vaults/aws-vault
         name: aws
         remote:
             type: git
