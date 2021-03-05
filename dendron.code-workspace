@@ -1,6 +1,9 @@
 {
     "folders": [
         {
+            "path": "../../notes"
+        },
+        {
             "path": "../../vaults/yc-vault",
             "name": "yc"
         },
@@ -31,9 +34,6 @@
         {
             "path": "../../vaults/aws-vault",
             "name": "aws"
-        },
-        {
-            "path": "../../../../notes"
         },
         {
             "path": "../../dev"
