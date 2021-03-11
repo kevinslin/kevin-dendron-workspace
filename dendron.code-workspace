@@ -119,7 +119,11 @@
             "tab.unfocusedActiveBorder": "#000000"
         },
         "todo-tree.tree.showBadges": false,
-        "todo-tree.tree.showCountsInTree": true
+        "todo-tree.tree.showCountsInTree": true,
+        "search.exclude": {
+            "**/*.code-search": false
+        },
+        "gitdoc.enabled": false
     },
     "extensions": {
         "recommendations": [

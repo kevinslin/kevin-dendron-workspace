@@ -1,2 +1,4 @@
 .dendron.*
 node_modules
+build
+docs

@@ -1,18 +1,22 @@
 site:
     siteHierarchies:
         - home
-        - dendron
-        - aws
-        - blog
-        - books
+        # - dendron
+        # - aws
+        # - blog
+        # - books
         - readings
-        - cli
-        - pr
-        - spec
-        - business
-        - film
+        # - cli
+        # - pr
+        # - spec
+        # - business
+        # - film
+        # - s 
     siteRootDir: docs
     config:
+        s:
+            publishByDefault: 
+                public: true
         tags:
             publishByDefault: false
         film:
@@ -49,7 +53,7 @@ site:
                 notes: false
     usePrettyRefs: true
     copyAssets: true
-    logo: ../notes/assets/images/bio-photo.jpg
+    logo: ../../notes/assets/images/bio-photo.jpg
     title: Kevin's Page
     siteUrl: 'https://www.kevinslin.com'
     description: Kevin is working on creating better tools for thought
