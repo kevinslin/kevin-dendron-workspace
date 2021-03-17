@@ -1,6 +1,10 @@
 {
     "folders": [
         {
+            "path": "../../vaults/dendron-dev-vault",
+            "name": "dendron-dev"
+        },
+        {
             "path": "../../notes"
         },
         {

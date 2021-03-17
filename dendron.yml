@@ -1,21 +1,21 @@
 site:
     siteHierarchies:
         - home
-        # - dendron
-        # - aws
-        # - blog
-        # - books
+        - dendron
+        - aws
+        - blog
+        - books
         - readings
-        # - cli
-        # - pr
-        # - spec
-        # - business
-        # - film
-        # - s 
+        - cli
+        - pr
+        - spec
+        - business
+        - film
+        - s
     siteRootDir: docs
     config:
         s:
-            publishByDefault: 
+            publishByDefault:
                 public: true
         tags:
             publishByDefault: false
@@ -70,7 +70,11 @@ site:
             - aws
             - business
             - yc
+            - dendron-dev-vault
 vaults:
+    -
+        fsPath: ../../vaults/dendron-dev-vault
+        name: dendron-dev
     -
         fsPath: ../../vaults/yc-vault
         name: yc
