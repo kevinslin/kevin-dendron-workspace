@@ -1,6 +1,13 @@
 {
     "folders": [
         {
+            "path": "../../vaults/team-kevin"
+        },
+        {
+            "path": "../../vaults/kpats",
+            "name": "kpats"
+        },
+        {
             "path": "../../vaults/dendron-dev-vault",
             "name": "dendron-dev"
         },
@@ -94,6 +101,7 @@
         "markdown-preview-enhanced.enableWikiLinkSyntax": true,
         "workbench.colorTheme": "GitHub Dark",
         "peacock.color": "#007fff",
+        "markdown-preview-enhanced.mathRenderingOption": "None",
         "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
         "cSpell.enabled": true,
         "pasteImage.prefix": "/",

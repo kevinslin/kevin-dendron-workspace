@@ -51,7 +51,7 @@ site:
         scratch:
             publishByDefault:
                 notes: false
-    usePrettyRefs: true
+    usePrettyRefs: false
     copyAssets: true
     logo: ../../notes/assets/images/bio-photo.jpg
     title: Kevin's Page
@@ -71,7 +71,14 @@ site:
             - business
             - yc
             - dendron-dev-vault
+            - kpats
+            - team-kevin
 vaults:
+    -
+        fsPath: ../../vaults/team-kevin
+    -
+        fsPath: ../../vaults/kpats
+        name: kpats
     -
         fsPath: ../../vaults/dendron-dev-vault
         name: dendron-dev
@@ -129,4 +136,5 @@ vaults:
             url: 'git@github.com:kevinslin/notes.git'
 version: 1
 useFMTitle: true
+useKatex: false
 useNoteTitleForLink: true
